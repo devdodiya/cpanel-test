@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/swiitchi/demo.swiitch.in/cpanel-test
+    - /bin/cp -R * $DEPLOYPATH
